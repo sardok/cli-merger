@@ -1,9 +1,9 @@
 cmake_minimum_required(VERSION 3.10)
 
-project(assignment-upwork)
+project(merger)
 
 add_executable(
-    assignment
+    merger 
     src/packet.cpp
     src/parser.cpp
     src/main.cpp
@@ -27,8 +27,6 @@ add_executable(
     src/packet.cpp
 )
 
-target_include_directories(assignment PUBLIC "${PROJECT_BINARY_DIR}")
-
-set_property(TARGET assignment PROPERTY CXX_STANDARD 17)
+set_property(TARGET merger PROPERTY CXX_STANDARD 17)
 set_property(TARGET tests PROPERTY CXX_STANDARD 17)
 set_property(TARGET gen_input PROPERTY CXX_STANDARD 17)
