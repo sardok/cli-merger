@@ -1,6 +1,8 @@
 INFO
 ====
 
+Takes input file(s), sorts the parsed packages & merges into one final file while applying rate limiter to the merger in parallel.
+
 The project generates 3 binaries.
 * assignment - runs the main project
 * tests - runs the tests
